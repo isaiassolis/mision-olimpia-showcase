@@ -1,12 +1,32 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:12395D,100:087F8C&height=205&section=header&text=Misi%C3%B3n%20Olimpia&fontSize=42&fontColor=ffffff&desc=Educational%20Software%20%7C%20Offline-First%20%7C%20Gamification&descAlignY=66&descSize=15&animation=fadeIn" width="100%" alt="Misión Olimpia — Educational Software, Offline-First and Gamification" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-087F8C?style=for-the-badge" alt="HTML, CSS and JavaScript" />
+  <img src="https://img.shields.io/badge/Architecture-Offline--First-12395D?style=for-the-badge" alt="Offline-first architecture" />
+  <img src="https://img.shields.io/badge/Tests-80%20Passed-0B91A1?style=for-the-badge" alt="80 automated tests passed at last validation" />
+  <img src="https://img.shields.io/badge/Status-Functional%20Prototype-12395D?style=for-the-badge" alt="Functional prototype" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/isaiassolis"><img src="https://img.shields.io/badge/Author-Isa%C3%ADas%20Sol%C3%ADs-0B1220?style=for-the-badge&logo=github&logoColor=white" alt="Author GitHub profile" /></a>
+  <a href="#galería-del-prototipo"><img src="https://img.shields.io/badge/View-Project%20Screenshots-087F8C?style=for-the-badge" alt="View project screenshots" /></a>
+</p>
+
 # Misión Olimpia
 
-### Plataforma interactiva para el entrenamiento del razonamiento matemático
+> **Educational software · Product development case study.** Plataforma interactiva para fortalecer el razonamiento matemático en educación primaria mediante desafíos, simulacros y experiencias de gamificación.
 
-**Caso de estudio de desarrollo de software educativo · Portafolio técnico**
+**Estado actual:** prototipo funcional para uso local. **Disponibilidad:** portafolio documental; el código fuente no se publica.
 
-> **Estado:** prototipo funcional de uso local. Este repositorio es una presentación del proyecto y **no contiene código fuente ni datos de estudiantes**.
+Misión Olimpia fue desarrollada para apoyar tutorías matemáticas individuales mediante una experiencia interactiva que combina geometría, razonamiento, evaluación y actividades recreativas. Su diseño prioriza la continuidad de las sesiones y la ejecución sin conexión.
 
-Misión Olimpia nació para apoyar sesiones de tutoría matemática de nivel primaria mediante actividades interactivas, retos de geometría, simulacros y dinámicas de gamificación. El proyecto prioriza la continuidad de las sesiones, la retroalimentación y el uso sin conexión a internet.
+**Qué demuestra este proyecto:** desarrollo de interfaces educativas, reglas de validación, persistencia y recuperación de sesiones, gamificación y pruebas automatizadas.
+
+![Pantalla de bienvenida del prototipo Misión Olimpia](screenshots/01-bienvenida.png)
+
+---
 
 ## Vista general
 
