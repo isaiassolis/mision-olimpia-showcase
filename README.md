@@ -21,18 +21,35 @@ Misión Olimpia nació para apoyar sesiones de tutoría matemática de nivel pri
 | Pruebas automatizadas | 80 pruebas aprobadas en el último cierre reportado |
 | Plataforma multiusuario en línea | Propuesta; no implementada |
 
-## Galería
+## Galería del prototipo
 
-Las capturas reales y anonimizadas se incorporarán progresivamente. No se utilizan imágenes simuladas para representar funcionalidades implementadas.
+Las siguientes son **capturas reales** de la aplicación, incorporadas sin publicar el código fuente ni los datos de sesiones individuales.
 
-| Pantalla | Qué demuestra |
-| --- | --- |
-| Inicio | Navegación por actividades y sesiones |
-| Desafíos de geometría | Construcción y validación de figuras |
-| Simulacro | Resolución de reactivos y flujo de entrega |
-| NIMO Brick Rush | Gamificación del entrenamiento |
-| Panel del instructor | Seguimiento de actividades y resultados de demostración |
-| Vista móvil | Adaptación de la interfaz a pantallas pequeñas |
+### 1. Bienvenida y acceso a los retos
+
+![Pantalla de bienvenida de Misión Olimpia con NIMO, retos y tiempo previsto](screenshots/01-bienvenida.png)
+
+Pantalla de inicio con identidad visual propia, instrucciones de participación y acceso a los desafíos matemáticos.
+
+### 2. Construcción interactiva de figuras
+
+![Actividad de construcción de seis cuadrados con área y perímetro](screenshots/02-construccion-seis-cuadrados.png)
+
+Actividad de geometría que permite construir figuras en una cuadrícula, comprobar restricciones y explorar diferentes soluciones equivalentes mediante giros, reflexiones y desplazamientos.
+
+### 3. Pausa lúdica: NIMO y las estrellas fugaces
+
+![Minijuego de NIMO con estrellas fugaces](screenshots/03-nimo-estrellas.png)
+
+Experiencia recreativa entre actividades, diseñada sin vidas, castigos ni puntuación competitiva.
+
+### 4. NIMO Brick Rush
+
+![Pantalla de NIMO Brick Rush después de entregar el simulacro](screenshots/04-nimo-brick-rush.png)
+
+Actividad gamificada complementaria, independiente de la calificación del simulacro, con opciones para pausar, reanudar o reiniciar la partida.
+
+> **Nota:** estas imágenes documentan pantallas específicas del prototipo; no representan un producto multiusuario desplegado públicamente. Las capturas de un panel de instructor y de vista móvil podrán añadirse más adelante, tras su revisión de privacidad.
 
 ## Tecnologías utilizadas actualmente
 
