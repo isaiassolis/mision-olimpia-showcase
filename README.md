@@ -1,122 +1,129 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:12395D,100:087F8C&height=205&section=header&text=Misi%C3%B3n%20Olimpia&fontSize=42&fontColor=ffffff&desc=Educational%20Software%20%7C%20Offline-First%20%7C%20Gamification&descAlignY=66&descSize=15&animation=fadeIn" width="100%" alt="Misión Olimpia — Educational Software, Offline-First and Gamification" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:12395D,100:087F8C&height=205&section=header&text=Misi%C3%B3n%20Olimpia&fontSize=42&fontColor=ffffff&desc=Educational%20Software%20%7C%20Offline-First%20%7C%20Gamification&descAlignY=66&descSize=15&animation=fadeIn" width="100%" alt="Misión Olimpia — aprendizaje matemático, software offline y gamificación" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-087F8C?style=for-the-badge" alt="HTML, CSS and JavaScript" />
-  <img src="https://img.shields.io/badge/Architecture-Offline--First-12395D?style=for-the-badge" alt="Offline-first architecture" />
-  <img src="https://img.shields.io/badge/Tests-80%20Passed-0B91A1?style=for-the-badge" alt="80 automated tests passed at last validation" />
-  <img src="https://img.shields.io/badge/Status-Functional%20Prototype-12395D?style=for-the-badge" alt="Functional prototype" />
+  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-087F8C?style=for-the-badge" alt="HTML, CSS y JavaScript" />
+  <img src="https://img.shields.io/badge/Architecture-Offline--First-12395D?style=for-the-badge" alt="Arquitectura offline-first" />
+  <img src="https://img.shields.io/badge/Tests-80%20Passed-0B91A1?style=for-the-badge" alt="80 pruebas aprobadas en el último cierre" />
+  <img src="https://img.shields.io/badge/Status-Functional%20Prototype-12395D?style=for-the-badge" alt="Prototipo funcional" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/isaiassolis"><img src="https://img.shields.io/badge/Author-Isa%C3%ADas%20Sol%C3%ADs-0B1220?style=for-the-badge&logo=github&logoColor=white" alt="Author GitHub profile" /></a>
-  <a href="#galería-del-prototipo"><img src="https://img.shields.io/badge/View-Project%20Screenshots-087F8C?style=for-the-badge" alt="View project screenshots" /></a>
-</p>
+# Misión Olimpia — Matemáticas, aprendizaje interactivo y gamificación
 
-# Misión Olimpia
+**Producto educativo propio · Desarrollo web offline · Experiencias de aprendizaje y evaluación**
 
-> **Educational software · Product development case study.** Plataforma interactiva para fortalecer el razonamiento matemático en educación primaria mediante desafíos, simulacros y experiencias de gamificación.
+Desarrollé **Misión Olimpia** para apoyar sesiones individuales de preparación matemática en educación primaria. Quería convertir una serie de ejercicios en una experiencia donde fuera posible **explorar soluciones, comprobar razonamientos y practicar bajo condiciones parecidas a las de una evaluación**, sin perder el carácter didáctico de la tutoría.
 
-**Estado actual:** prototipo funcional para uso local. **Disponibilidad:** portafolio documental; el código fuente no se publica.
+El resultado es un **prototipo funcional que trabaja sin conexión a internet**, con actividades de geometría y razonamiento, simulacros, recuperación de sesiones y dos experiencias de gamificación protagonizadas por **NIMO**.
 
-Misión Olimpia fue desarrollada para apoyar tutorías matemáticas individuales mediante una experiencia interactiva que combina geometría, razonamiento, evaluación y actividades recreativas. Su diseño prioriza la continuidad de las sesiones y la ejecución sin conexión.
+![Pantalla de bienvenida de Misión Olimpia](screenshots/01-bienvenida.png)
 
-**Qué demuestra este proyecto:** desarrollo de interfaces educativas, reglas de validación, persistencia y recuperación de sesiones, gamificación y pruebas automatizadas.
+## El desafío educativo
 
-![Pantalla de bienvenida del prototipo Misión Olimpia](screenshots/01-bienvenida.png)
+Preparar a un estudiante para resolver problemas matemáticos requiere algo más que mostrar preguntas y calificar respuestas. Es importante que pueda probar estrategias, detectar errores, volver a intentarlo y conservar un registro útil para revisar su proceso.
 
----
+Diseñé Misión Olimpia como una **herramienta de apoyo para el instructor**, no como un sustituto de la enseñanza presencial ni del trabajo con papel y lápiz.
 
-## Vista general
+## Qué desarrollé
 
-| Característica | Estado |
+| Componente | Funcionalidad |
 | --- | --- |
-| Actividades interactivas de geometría y razonamiento | Implementadas en el prototipo |
-| Simulacro de opción múltiple | Implementado |
-| Gamificación: NIMO Stars y NIMO Brick Rush | Implementada |
-| Guardado local y recuperación de sesiones | Implementados |
-| Importación y exportación de datos | Implementadas |
-| Ejecución local sin conexión (`file://`) | Verificada durante el desarrollo |
-| Pruebas automatizadas | 80 pruebas aprobadas en el último cierre reportado |
-| Plataforma multiusuario en línea | Propuesta; no implementada |
+| **Retos interactivos** | Actividades de razonamiento y construcción de figuras geométricas. |
+| **Comprobación de soluciones** | Reglas para revisar restricciones y distintas respuestas válidas. |
+| **Simulacro** | Ejercicios de opción múltiple y seguimiento del tiempo de evaluación. |
+| **Persistencia local** | Guardado automático y recuperación de sesiones. |
+| **Intercambio de datos** | Importación y exportación de información en archivos JSON. |
+| **NIMO Stars** | Actividad lúdica de pausa y exploración. |
+| **NIMO Brick Rush** | Minijuego de práctica complementaria, separado de la calificación del simulacro. |
+| **Ejecución offline** | Funcionamiento desde archivos locales, sin servidor ni conexión obligatoria. |
 
-## Galería del prototipo
+## Misión Olimpia en imágenes
 
-Las siguientes son **capturas reales** de la aplicación, incorporadas sin publicar el código fuente ni los datos de sesiones individuales.
+### Inicio y selección de actividades
 
-### 1. Bienvenida y acceso a los retos
+![Pantalla de bienvenida con los retos de Misión Olimpia](screenshots/01-bienvenida.png)
 
-![Pantalla de bienvenida de Misión Olimpia con NIMO, retos y tiempo previsto](screenshots/01-bienvenida.png)
+*La bienvenida organiza la experiencia y presenta las actividades matemáticas.*
 
-Pantalla de inicio con identidad visual propia, instrucciones de participación y acceso a los desafíos matemáticos.
+### Construcción de figuras
 
-### 2. Construcción interactiva de figuras
+![Construcción interactiva de figuras de seis cuadrados](screenshots/02-construccion-seis-cuadrados.png)
 
-![Actividad de construcción de seis cuadrados con área y perímetro](screenshots/02-construccion-seis-cuadrados.png)
+*Diseñé retos de geometría en los que el estudiante construye figuras, comprueba condiciones y explora soluciones mediante desplazamientos, giros y reflexiones.*
 
-Actividad de geometría que permite construir figuras en una cuadrícula, comprobar restricciones y explorar diferentes soluciones equivalentes mediante giros, reflexiones y desplazamientos.
+### NIMO Stars
 
-### 3. Pausa lúdica: NIMO y las estrellas fugaces
+![Minijuego NIMO Stars](screenshots/03-nimo-estrellas.png)
 
-![Minijuego de NIMO con estrellas fugaces](screenshots/03-nimo-estrellas.png)
+*Una experiencia recreativa entre actividades, sin penalizaciones ni puntuaciones competitivas.*
 
-Experiencia recreativa entre actividades, diseñada sin vidas, castigos ni puntuación competitiva.
+### NIMO Brick Rush
 
-### 4. NIMO Brick Rush
+![Minijuego NIMO Brick Rush](screenshots/04-nimo-brick-rush.png)
 
-![Pantalla de NIMO Brick Rush después de entregar el simulacro](screenshots/04-nimo-brick-rush.png)
+*Actividad gamificada independiente de la calificación del simulacro, con controles de pausa, reanudación y reinicio.*
 
-Actividad gamificada complementaria, independiente de la calificación del simulacro, con opciones para pausar, reanudar o reiniciar la partida.
+## Decisiones de diseño y aprendizaje
 
-> **Nota:** estas imágenes documentan pantallas específicas del prototipo; no representan un producto multiusuario desplegado públicamente. Las capturas de un panel de instructor y de vista móvil podrán añadirse más adelante, tras su revisión de privacidad.
+Desde el principio busqué que la aplicación pudiera utilizarse durante una sesión real, incluso sin acceso a internet.
 
-## Tecnologías utilizadas actualmente
+Por eso prioricé:
 
-- **Frontend:** HTML5, CSS3 y JavaScript.
-- **Persistencia:** almacenamiento local del navegador, con mecanismos de recuperación y transferencia de datos.
-- **Ejecución:** aplicación web local, sin servidor obligatorio y sin dependencia de internet para las actividades incluidas.
-- **Calidad:** pruebas automatizadas de JavaScript ejecutadas con Node.js.
-- **Control de versiones:** Git, con desarrollo incremental documentado.
+- **Interacción antes que memorización:** los retos de geometría permiten comprobar ideas y construir soluciones.
+- **Continuidad de la sesión:** el trabajo se guarda localmente y puede recuperarse después de una interrupción.
+- **Evaluación y juego por separado:** las actividades recreativas complementan la práctica, sin alterar el resultado del simulacro.
+- **Uso sencillo:** una interfaz adaptada a sesiones individuales y revisión por el instructor.
+- **Control local de la información:** las actividades no necesitan cuentas de usuario ni enviar datos a un servidor.
 
-## Arquitectura propuesta para una futura versión pública
+## Tecnologías y arquitectura
 
-Las siguientes tecnologías son **opciones de diseño bajo evaluación**, no componentes ya implementados:
+Construí la versión actual con **HTML5, CSS3 y JavaScript**, manteniendo una aplicación ejecutable directamente desde el navegador.
 
-- **React + TypeScript** para una interfaz modular y mantenible.
-- **Node.js + NestJS** para una API y servicios de aplicación, si el modelo multiusuario lo requiere.
-- **PostgreSQL** para persistencia centralizada.
-- **PWA y estrategias offline-first** para conservar parte de la experiencia sin conexión.
-- **Autenticación y roles** para instructores y estudiantes, con especial atención a la privacidad de menores.
-- **Analítica pedagógica e IA asistida**, sujetas a validación educativa y salvaguardas de datos.
+| Área | Implementación |
+| --- | --- |
+| **Interfaz** | HTML, CSS y JavaScript |
+| **Ejecución** | Navegador local, compatible con `file://` |
+| **Persistencia** | Almacenamiento local del navegador |
+| **Respaldo e intercambio** | Exportación e importación JSON |
+| **Pruebas** | Validaciones automatizadas con Node.js |
+| **Versionado** | Git y desarrollo incremental |
 
-La selección definitiva dependerá de pruebas de uso, alcance del MVP, costos de operación y requisitos de privacidad.
+La arquitectura evita depender de un servidor para realizar las actividades disponibles en el prototipo.
 
-## Decisiones de ingeniería
+[Conocer la arquitectura](docs/arquitectura.md).
 
-1. **Offline-first:** facilitar actividades sin depender de una conexión estable.
-2. **Persistencia recuperable:** reducir el riesgo de perder avances ante cierres o recargas.
-3. **Separación entre evaluación y gamificación:** mantener claros los objetivos pedagógicos.
-4. **Pruebas automatizadas:** verificar reglas, almacenamiento y comportamientos críticos.
-5. **Privacidad desde el diseño:** excluir datos reales de estudiantes del material de demostración.
+## Validación del prototipo
+
+Durante el desarrollo probé el funcionamiento de los retos, sus reglas de comprobación, la persistencia, la recuperación de sesiones y los minijuegos.
+
+El último cierre de desarrollo registró **80 pruebas automatizadas aprobadas**, junto con revisiones en navegador de escritorio y móvil y verificación de funcionamiento sin conexión.
+
+Estos resultados corresponden al cierre documentado de esa etapa del prototipo.
+
+## Mi participación
+
+Concebí y desarrollé Misión Olimpia como una solución que combina **programación, diseño de interacción y preparación de actividades educativas**.
+
+Trabajé en la estructura del producto, las reglas de los ejercicios, los mecanismos de guardado, los simulacros, la gamificación y las pruebas. La experiencia en tutorías me permitió orientar las decisiones del software a necesidades concretas de aprendizaje.
 
 ## Evolución del producto
 
-| Fase | Objetivo | Estado |
-| --- | --- | --- |
-| 1. Prototipo local | Actividades, simulacro, juegos, persistencia y pruebas | Funcional |
-| 2. MVP público | Validar usuarios, experiencia, accesibilidad y arquitectura | Planeado |
-| 3. Gestión educativa | Grupos, contenidos, seguimiento y reportes | Propuesto |
-| 4. Asistencia inteligente | Recomendaciones y adaptación de ejercicios con supervisión | Exploratorio |
+Mi prioridad es consolidar la experiencia individual antes de decidir si conviene convertirla en una plataforma pública.
 
-Consulta [la hoja de ruta](docs/roadmap.md) y [la arquitectura](docs/arquitectura.md) para conocer las decisiones pendientes.
+Entre las posibilidades que estudiaré están la creación de contenidos para instructores, el seguimiento de grupos, las mejoras de accesibilidad y la adaptación de actividades con apoyo de inteligencia artificial.
 
-## Privacidad y disponibilidad
+Una versión multiusuario requeriría estudiar una arquitectura diferente, así como medidas específicas de privacidad cuando participen menores.
 
-Este repositorio contiene exclusivamente documentación del producto. El código de la aplicación, las preguntas utilizadas en tutorías, las evaluaciones individuales y los archivos de referencia se mantienen fuera de esta publicación. Las futuras capturas deberán usar datos ficticios y revisarse antes de incorporarse.
+[Consultar la hoja de ruta](docs/roadmap.md).
 
-**El código fuente no está disponible públicamente en esta etapa.** Esta publicación no concede licencia sobre el software original ni sobre contenidos de terceros.
+## Sobre el repositorio
+
+Aquí comparto las características, la arquitectura y capturas del prototipo. El código de desarrollo y la información de las sesiones individuales permanecen privados.
+
+[Política de publicación y privacidad](docs/privacidad.md).
 
 ---
 
-*Proyecto presentado como evidencia de desarrollo de producto, experiencia de usuario, pruebas y diseño de software educativo.*
+<p align="center"><strong>Aprendizaje matemático, desarrollo de software y diseño de experiencias interactivas.</strong></p>
+<p align="center"><a href="https://github.com/isaiassolis">Isaías Solís · Portafolio profesional</a></p>
