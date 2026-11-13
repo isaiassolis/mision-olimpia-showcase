@@ -1,33 +1,40 @@
-# Arquitectura: estado actual y alternativas futuras
+# Misión Olimpia — Arquitectura del prototipo
 
-## Estado actual — verificado a partir del cierre de desarrollo
+## Una aplicación educativa que funciona sin conexión
 
-- Interfaz construida con HTML, CSS y JavaScript.
-- Ejecución local sin servidor obligatorio (`file://`).
-- Persistencia en almacenamiento del navegador, con recuperación e importación/exportación de datos.
-- Módulos de actividades, simulacro y gamificación.
-- Pruebas automatizadas ejecutadas mediante Node.js.
+Diseñé Misión Olimpia para utilizarse durante sesiones individuales de aprendizaje, sin requerir acceso a internet ni infraestructura de servidor.
 
-La arquitectura local fue elegida para permitir uso individual sin infraestructura de despliegue.
+El prototipo funciona directamente desde el navegador mediante archivos locales (`file://`) y está construido con **HTML, CSS y JavaScript**.
 
-## Arquitectura futura — propuesta, no implementada
+## Componentes principales
 
-**Cliente:** React + TypeScript, con diseño responsive y evaluación de capacidades PWA.
+| Componente | Función |
+| --- | --- |
+| **Interfaz y retos** | Actividades de geometría, razonamiento y comprobación de soluciones. |
+| **Simulacro** | Evaluación de opción múltiple y control del tiempo. |
+| **Gamificación** | NIMO Stars y NIMO Brick Rush como experiencias complementarias. |
+| **Persistencia** | Guardado local y recuperación de sesiones. |
+| **Transferencia de información** | Importación y exportación JSON. |
+| **Pruebas** | Validación automatizada mediante Node.js. |
 
-**Servidor (condicional):** API con Node.js y NestJS para usuarios, contenidos, progreso y permisos, si las pruebas de producto justifican una solución centralizada.
+## Decisiones técnicas
 
-**Datos:** PostgreSQL como opción de almacenamiento centralizado, complementado con una estrategia explícita de uso offline y sincronización.
+- **Offline-first:** permitir el uso sin servidor ni red.
+- **Guardado recuperable:** evitar que un cierre inesperado haga perder el avance.
+- **Separación de actividades:** mantener el simulacro independiente de los minijuegos.
+- **Interacción comprobable:** validar las condiciones de los retos matemáticos.
+- **Privacidad:** conservar la información local y no incluir datos reales de estudiantes en las capturas públicas.
 
-**Privacidad:** minimización de datos, control de acceso, políticas de conservación y consentimiento aplicable cuando participen menores.
+## Validación
 
-**Calidad:** ampliar las pruebas unitarias actuales con integración, accesibilidad y pruebas de extremo a extremo.
+El último cierre de desarrollo documentó **80 pruebas automatizadas aprobadas**. También se revisó el funcionamiento desde archivos locales y la presentación de la interfaz en escritorio y móvil.
 
-## Decisiones abiertas
+## Una posible arquitectura futura
 
-1. ¿El primer lanzamiento será individual, para instructores o para escuelas?
-2. ¿Qué datos deben sincronizarse y cuáles deben permanecer en el dispositivo?
-3. ¿Qué funciones requieren cuentas de usuario?
-4. ¿Cuál será el costo operativo aceptable para el MVP?
-5. ¿Cómo validar pedagógicamente recomendaciones automáticas antes de incorporar IA?
+Si el producto evoluciona hacia una plataforma para instructores o escuelas, evaluaré una interfaz con **React y TypeScript**, un servicio con **Node.js y NestJS** y persistencia centralizada con **PostgreSQL**.
 
-Ninguna tecnología futura se presenta como ya desplegada.
+También sería necesario definir sincronización offline, roles, accesibilidad, protección de datos de menores y criterios pedagógicos para cualquier función asistida por IA.
+
+Estas son **opciones de evolución**, no tecnologías utilizadas en la versión local actual.
+
+[← Volver al proyecto](../README.md)
