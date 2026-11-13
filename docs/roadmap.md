@@ -1,34 +1,40 @@
-# Hoja de ruta
+# Misión Olimpia — Hoja de ruta
 
-Esta hoja de ruta describe intenciones de producto, no fechas comprometidas.
+Misión Olimpia nació como una herramienta para apoyar tutorías individuales. Quiero consolidar primero esa experiencia antes de ampliar el alcance del producto.
 
-## Fase 1 — Prototipo local (funcional)
+## Etapa 1 — Prototipo local
 
-- Actividades de razonamiento y geometría.
-- Simulacro y retroalimentación.
+**Estado: funcional.**
+
+- Actividades interactivas de geometría y razonamiento.
+- Simulacro matemático y revisión de resultados.
 - NIMO Stars y NIMO Brick Rush.
-- Persistencia, recuperación e intercambio de datos locales.
-- Validación automatizada; último cierre reportado: 80 pruebas aprobadas.
+- Guardado y recuperación de sesiones.
+- Exportación e importación JSON.
+- Funcionamiento offline y pruebas automatizadas.
 
-## Fase 2 — MVP público (planeado)
+El último cierre registró **80 pruebas aprobadas**.
 
-- Investigación con usuarios y definición del público objetivo.
-- Revisión de accesibilidad y experiencia móvil.
-- Decisión de arquitectura y alcance mínimo.
-- Separación de datos de demostración y datos reales.
-- Validación de privacidad y seguridad antes de habilitar cuentas.
+## Etapa 2 — Validación y mejora
 
-## Fase 3 — Plataforma educativa (propuesta)
+- Evaluar la experiencia de uso del estudiante y del instructor.
+- Revisar accesibilidad y presentación móvil.
+- Ajustar contenidos, tiempos, instrucciones y retroalimentación.
+- Preparar un conjunto de demostración independiente de las sesiones reales.
 
-- Gestión de grupos y actividades.
-- Catálogo de ejercicios con autoría y permisos claros.
-- Reportes para instructores.
-- Sincronización de progreso cuando sea necesaria.
+## Etapa 3 — Plataforma educativa
 
-## Fase 4 — Asistencia inteligente (exploratoria)
+- Explorar herramientas de creación y administración de actividades.
+- Evaluar funciones para instructores y grupos.
+- Definir cuándo hacen falta cuentas, permisos y sincronización.
+- Estudiar una arquitectura web que conserve capacidades sin conexión.
 
-- Sugerencia de actividades según dificultades observadas.
-- Explicaciones y retroalimentación asistidas.
-- Evaluación pedagógica, supervisión humana y control de sesgos.
+## Etapa 4 — Asistencia inteligente
 
-La incorporación de inteligencia artificial no es un requisito del MVP inicial.
+- Investigar recomendaciones de ejercicios según dificultades observadas.
+- Evaluar explicaciones y retroalimentación asistidas.
+- Mantener supervisión pedagógica y medidas de privacidad.
+
+Estas etapas representan **posibilidades de desarrollo**, no fechas de lanzamiento comprometidas.
+
+[← Volver al proyecto](../README.md)
